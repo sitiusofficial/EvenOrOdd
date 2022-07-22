@@ -1,6 +1,4 @@
 import math
-while 1 == 1:
-num = input("What number do you want to check?")
 def oddoreven(num):
   num = num[-1]
   test0 = num == 0
@@ -17,5 +15,3 @@ def oddoreven(num):
     print(Number is Odd)
   if test2 == true or test4 == true or test6 == true or test8 == true or test0 == true:
       print(Number is Even)
-result = "oddoreven(num)"
-print(result)
